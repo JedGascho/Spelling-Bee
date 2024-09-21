@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Bee!</title>
+    <link rel="icon" type="image/x-icon" href="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/0b/8a/d1/0b8ad17f-8a54-7977-b07c-48b1b2c7758c/source/256x256bb.jpg">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="./index.js" defer></script>
+</head>
+<body onload=''>
+    <input type="button" value="" id="letter1" onclick="shown_text_changer(0)">
+    <input type="button" value="" id="letter2" onclick="shown_text_changer(1)"">
+    <input type="button" value="" id="letter3" onclick="shown_text_changer(2)"">
+    <br>
+    <input type="button" value="" id="reqletter" onclick="shown_text_changer(6)"">
+    <br>
+    <input type="button" value="" id="letter4" onclick="shown_text_changer(3)"">
+    <input type="button" value="" id="letter5" onclick="shown_text_changer(4)"">
+    <input type="button" value="" id="letter6" onclick="shown_text_changer(5)"">
+    <br>
+    
+    <br>
+    <input type="button" value="submit" id="submission" onclick="check()">
+    <input type="button" value="delete" id="deletion" onclick="deletion()">
+    <br>
+    <text id="shown_text"></text>
+    <br>
+    <h1 id="words_found_title">words found:</h1>
+    <ul id="found_words"></ul>
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>
